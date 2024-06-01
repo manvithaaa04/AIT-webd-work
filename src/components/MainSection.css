@@ -1,0 +1,55 @@
+.MainSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('aitai.jpg') no-repeat right right;
+    background-size: cover;
+    padding: 100px;
+    color: white;
+    text-align: left;
+    background-color: rgb(39, 41, 40);
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0; 
+    box-sizing: border-box;
+  }
+  
+  .content {
+    max-width: 50%;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: rgb(31, 28, 28);
+    background-color: rgb(173, 168, 168);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .image-container {
+    max-width: 50%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  

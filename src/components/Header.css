@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+  }
+  
+  .Header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #333; /* Adjust as needed */
+    color: white;
+    transition: all 0.3s ease;
+    padding: 30px 10px;
+  }
+  
+  .Header.small {
+    padding: 20px 5px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Adjust based on your design */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+ 
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  .request-quote {
+    padding: 10px 20px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .request-quote:hover {
+    background-color: white;
+    color: #333;
+  }
+  
