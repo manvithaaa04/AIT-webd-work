@@ -6,7 +6,7 @@ function OurProcess() {
       <div className="container">
         <h2>OUR SERVICES</h2>
         <h1 className="OurProcess__title">
-          Wemofy, Where Design, Development, and Machine Learning converge to create
+           Where Design, Development, and Machine Learning converge to create
           transformative solutions for businesses.
         </h1>
         <p className="OurProcess__text">
