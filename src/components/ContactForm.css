@@ -1,0 +1,85 @@
+
+
+.ContactForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ContactForm h2 {
+    width: 100%;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .ContactForm img {
+    max-width: 40%;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .ContactForm form {
+    max-width: 50%;
+    width: 100%;
+    flex: 1;
+  }
+  
+  .ContactForm label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .ContactForm input,
+  .ContactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .ContactForm button {
+    padding: 10px 20px;
+    background-color: #494b4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ContactForm button:hover {
+    background-color: #1e1f1f;
+  }
+  
+  @media (max-width: 768px) {
+    .ContactForm {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ContactForm img {
+      max-width: 100%;
+      margin: 0 0 20px 0;
+    }
+  
+    .ContactForm form {
+      max-width: 100%;
+    }
+  }
+  

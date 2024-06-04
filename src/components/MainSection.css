@@ -5,9 +5,9 @@
     background: url('aitai.jpg') no-repeat right right;
     background-size: cover;
     padding: 100px;
-    color: white;
     text-align: left;
-    background-color: rgb(39, 41, 40);
+  
+
   }
   .container {
     display: flex;
@@ -37,7 +37,7 @@
   button {
     padding: 15px 30px;
     font-size: 1rem;
-    color: rgb(31, 28, 28);
+    color: rgb(8, 8, 8);
     background-color: rgb(173, 168, 168);
     border: none;
     border-radius: 5px;

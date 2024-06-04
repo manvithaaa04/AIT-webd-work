@@ -6,6 +6,7 @@ import OurExpertise from './components/OurExpertise';
 import OurProcess from './components/OurProcess';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import Scroll from './components/Scroll';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <br></br><br></br>
       <MainSection />
       <WhyChooseUs />
+      <Scroll />
       <OurExpertise />
       <OurProcess />
       <ContactForm />

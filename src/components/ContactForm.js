@@ -1,10 +1,14 @@
 import React from 'react';
-
+import './ContactForm.css';
+import image1 from './aitcon2.jpeg';
 
 function ContactForm() {
   return (
     <section id="contact-form" className="ContactForm">
       <h2>Contact Us</h2>
+      <br></br><br></br>
+      <img src={image1} alt="Contact Us" />
+      <br></br><br></br>
       <form>
         <label>
           Full Name:
