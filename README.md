@@ -1,6 +1,6 @@
-  One of the Web-pages made for AIT website
+One of the Web-pages made for AIT website
 
-  https://saintelligencetech.com/ai-ml
+https://saintelligencetech.com/
 
 
  
